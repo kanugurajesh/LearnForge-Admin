@@ -5,7 +5,6 @@ import { useState } from "react";
 import toast, { Toaster } from "react-hot-toast";
 
 export default function Home() {
-
   const [fileUrl, setFileUrl] = useState<string | null>(null);
   const [fileName, setFileName] = useState<string | null>(null);
 
@@ -14,7 +13,6 @@ export default function Home() {
   };
 
   const handleSubmit = async () => {
-
     if (!fileUrl) {
       toast.error("Please upload an image");
       return;
@@ -25,9 +23,9 @@ export default function Home() {
       return;
     }
 
-    toast.loading("Processing...")
+    toast.loading("Processing...");
 
-    const res = await fetch('/api/upload', {
+    const res = await fetch("/api/upload", {
       method: "POST",
       body: JSON.stringify({
         fileUrl,
@@ -44,7 +42,7 @@ export default function Home() {
       return;
     }
 
-    toast.success("Data upload successful!")
+    toast.success("Data upload successful!");
   };
 
   return (
@@ -71,7 +69,10 @@ export default function Home() {
         placeholder="Enter the Filename"
         onChange={handleFileName}
       />
-      <button className="bg-black text-white p-2 pl-6 pr-6 rounded-sm font-medium shadow hover:shadow-2xl" onClick={handleSubmit}>
+      <button
+        className="bg-black text-white p-2 pl-6 pr-6 rounded-sm font-medium shadow hover:shadow-2xl"
+        onClick={handleSubmit}
+      >
         Submit
       </button>
     </main>

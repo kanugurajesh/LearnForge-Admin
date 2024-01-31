@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the fundamental purpose of Azure in web development?",
+    "options": [
+      "Facilitating front-end design",
+      "Managing user interactions",
+      "Executing server-side operations",
+      "Creating personalized user interfaces"
+    ],
+    "correctOption": "Executing server-side operations"
+  },
+  {
+    "question": "In Azure, how can you create dynamic routes to enhance the user experience?",
+    "options": [
+      "By including external JavaScript libraries",
+      "By utilizing inline styles in HTML",
+      "By employing brackets [ ] in the pages directory",
+      "By writing custom CSS rules"
+    ],
+    "correctOption": "By employing brackets [ ] in the pages directory"
+  },
+  {
+    "question": "What is the primary objective of the Azure function 'getStaticProps'?",
+    "options": [
+      "Generating dynamic page routes",
+      "Managing CSS styles and responsiveness",
+      "Fostering client-side navigation",
+      "Fetching data during build time for static site generation"
+    ],
+    "correctOption": "Fetching data during build time for static site generation"
+  },
+  {
+    "question": "How does Azure handle client-side navigation between web pages seamlessly?",
+    "options": [
+      "By utilizing embedded styles within HTML",
+      "By relying solely on server-side rendering for responsiveness",
+      "By implementing media queries in separate CSS files",
+      "By leveraging the 'Link' component for efficient client-side navigation"
+    ],
+    "correctOption": "By leveraging the 'Link' component for efficient client-side navigation"
+  },
+  {
+    "question": "What is the primary purpose of the Azure function 'getServerSideProps'?",
+    "options": [
+      "Optimizing unused styles for production builds",
+      "Automatically adding prefixes to HTML elements",
+      "Handling user input through form submissions",
+      "Fetching data on each request for server-side rendering"
+    ],
+    "correctOption": "Fetching data on each request for server-side rendering"
+  },
+  {
+    "question": "In Azure, how can you customize the default configuration to suit your project requirements?",
+    "options": [
+      "By modifying core Azure library files directly",
+      "By defining a custom webpack configuration",
+      "By utilizing a separate configuration file (azure.config.js)",
+      "By applying inline styles with the !important flag"
+    ],
+    "correctOption": "By utilizing a separate configuration file (azure.config.js)"
+  },
+  {
+    "question": "What is the primary role of the Azure function 'getStaticPaths' in static site generation?",
+    "options": [
+      "Defining styles for elements in a specific state",
+      "Facilitating event handling for server-side rendering",
+      "Creating dynamic routes for static site generation",
+      "Integrating animation effects into React components"
+    ],
+    "correctOption": "Creating dynamic routes for static site generation"
+  },
+  {
+    "question": "What is the main purpose of the 'API routes' feature in Azure?",
+    "options": [
+      "Managing dark mode in React components",
+      "Creating serverless functions for backend functionality",
+      "Adding depth and shadows to elements",
+      "Defining global styles for an Azure application"
+    ],
+    "correctOption": "Creating serverless functions for backend functionality"
+  },
+  {
+    "question": "In Azure, what is the recommended approach for deploying an application?",
+    "options": [
+      "By including external CSS files",
+      "By using the 'azure-plugins' npm package",
+      "By deploying the application to platforms like Vercel, Netlify, or AWS",
+      "By extending the core Azure library"
+    ],
+    "correctOption": "By deploying the application to platforms like Vercel, Netlify, or AWS"
+  },
+  {
+    "question": "What is the core objective of the '_app.js' file in Azure?",
+    "options": [
+      "Applying inline styles directly within HTML files",
+      "Enabling the inclusion of external JavaScript files",
+      "Extending utility classes and customizing their behavior",
+      "Setting up the primary component that encompasses all pages for a consistent layout"
+    ],
+    "correctOption": "Setting up the primary component that encompasses all pages for a consistent layout"
+  }
+]

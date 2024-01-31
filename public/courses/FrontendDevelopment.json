@@ -1,0 +1,102 @@
+[
+  {
+    "question": "In Azure, what is the function of a 'layout component' in frontend development?",
+    "options": [
+      "Handling data retrieval from endpoints",
+      "Managing state and providing data to child components",
+      "Establishing dynamic routing for pages",
+      "Creating a consistent layout for different pages in an application"
+    ],
+    "correctOption": "Creating a consistent layout for different pages in an application"
+  },
+  {
+    "question": "What is the recommended approach for styling React components in Azure?",
+    "options": [
+      "Inline styling within HTML elements",
+      "Including external CSS files",
+      "Using styled components for encapsulated and reusable styles",
+      "Relying solely on CSS classes for styling"
+    ],
+    "correctOption": "Using styled components for encapsulated and reusable styles"
+  },
+  {
+    "question": "In Azure, how can you ensure that changes made to the UI are reflected instantly without reloading the page?",
+    "options": [
+      "By utilizing server-side rendering",
+      "By employing client-side rendering",
+      "By leveraging caching mechanisms",
+      "By implementing hot module replacement"
+    ],
+    "correctOption": "By implementing hot module replacement"
+  },
+  {
+    "question": "What is the purpose of the 'getInitialProps' method in Azure?",
+    "options": [
+      "Fetching data exclusively during build time",
+      "Handling navigation and routing between pages",
+      "Adding dynamic styles to components based on user preferences",
+      "Fetching data on the server-side before a page renders"
+    ],
+    "correctOption": "Fetching data on the server-side before a page renders"
+  },
+  {
+    "question": "In Azure, what is the function of a 'page component'?",
+    "options": [
+      "Providing a consistent layout across all pages in an application",
+      "Managing and displaying content specific to a particular page",
+      "Handling state management and data retrieval",
+      "Establishing dynamic routes for page navigation"
+    ],
+    "correctOption": "Managing and displaying content specific to a particular page"
+  },
+  {
+    "question": "What is the primary benefit of using a static site generator (SSG) in Azure?",
+    "options": [
+      "Improved performance due to server-side rendering",
+      "Simplified development due to reduced code complexity",
+      "Better SEO rankings due to faster page load times",
+      "Ability to create dynamic content based on user input"
+    ],
+    "correctOption": "Better SEO rankings due to faster page load times"
+  },
+  {
+    "question": "How does Azure manage state in a React application?",
+    "options": [
+      "Through the use of Redux for global state management",
+      "By utilizing the React Context API for component state",
+      "By implementing a custom state management solution",
+      "By relying solely on local component state"
+    ],
+    "correctOption": "Through the use of Redux for global state management"
+  },
+  {
+    "question": "What is the recommended approach for handling user interactions and events in Azure?",
+    "options": [
+      "Using inline event handlers within HTML elements",
+      "Utilizing the 'useEffect' hook for lifecycle events",
+      "Implementing custom event listeners",
+      "Employing state management techniques to manage event handling"
+    ],
+    "correctOption": "Utilizing the 'useEffect' hook for lifecycle events"
+  },
+  {
+    "question": "How can you achieve responsive design in Azure for different screen sizes?",
+    "options": [
+      "By utilizing media queries in CSS",
+      "By implementing CSS breakpoints",
+      "By using CSS flexbox and grid layout",
+      "By utilizing the 'styled-components' library"
+    ],
+    "correctOption": "By utilizing media queries in CSS"
+  },
+  {
+    "question": "What is the primary focus of the 'app.js' file in an Azure application?",
+    "options": [
+      "Defining the application's state management strategy",
+      "Establishing global styles and layout for all pages",
+      "Configuring routes and page components for navigation",
+      "Handling user authentication and authorization"
+    ],
+    "correctOption": "Configuring routes and page components for navigation"
+  }
+]
